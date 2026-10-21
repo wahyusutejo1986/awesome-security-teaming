@@ -1,0 +1,23 @@
+name: Suggest a tool
+description: Suggest an upstream open-source security tool
+title: "[Tool] "
+labels: ["catalog"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official upstream repository URL
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Capability, license, and verification evidence
+    validations:
+      required: true

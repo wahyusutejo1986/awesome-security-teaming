@@ -1,0 +1,44 @@
+{
+  "teams": [
+    "red",
+    "blue",
+    "purple"
+  ],
+  "capabilities": [
+    "adversary-emulation",
+    "attack-mapping",
+    "attack-path-analysis",
+    "attack-surface-discovery",
+    "command-and-control",
+    "detection-engineering",
+    "detection-validation",
+    "dfir",
+    "exercise-management",
+    "log-management",
+    "network-analysis",
+    "network-detection",
+    "network-discovery",
+    "packet-analysis",
+    "penetration-testing",
+    "security-monitoring",
+    "unclassified",
+    "vulnerability-management"
+  ],
+  "verification": [
+    "unverified",
+    "verified",
+    "needs-review"
+  ],
+  "maintenance": [
+    "unknown",
+    "active",
+    "limited",
+    "archived"
+  ],
+  "enterprise_readiness": [
+    "not-assessed",
+    "experimental",
+    "lab-ready",
+    "enterprise-candidate"
+  ]
+}

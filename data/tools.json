@@ -1,0 +1,491 @@
+[
+  {
+    "id": "sentinelx",
+    "name": "SentinelX",
+    "description": "Framework CLI modular dengan mode khusus Red, Blue, dan Purple Team. Semua modul dipetakan langsung ke MITRE ATT&CK.",
+    "teams": [
+      "purple"
+    ],
+    "capabilities": [
+      "unclassified"
+    ],
+    "primary_use": "Purple (Red & Blue)",
+    "repository": null,
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "Project identity requires verification before linking.",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "mitre-caldera",
+    "name": "MITRE Caldera",
+    "description": "Platform emulasi adversary otomatis yang dikembangkan oleh MITRE. Banyak digunakan untuk red teaming, purple teaming, dan validasi keamanan.",
+    "teams": [
+      "red",
+      "purple"
+    ],
+    "capabilities": [
+      "adversary-emulation"
+    ],
+    "primary_use": "Purple (Red & Blue)",
+    "repository": "https://github.com/mitre/caldera",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "vectr",
+    "name": "VECTR",
+    "description": "Tool untuk melacak aktivitas pengujian red dan blue team, serta mengukur kemampuan deteksi dan pencegahan dari berbagai skenario serangan.",
+    "teams": [
+      "blue",
+      "purple"
+    ],
+    "capabilities": [
+      "exercise-management"
+    ],
+    "primary_use": "Purple (Tracking)",
+    "repository": "https://github.com/SecurityRiskAdvisors/VECTR",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "mitre-att-ck-navigator",
+    "name": "MITRE ATT&CK Navigator",
+    "description": "Tool berbasis web gratis untuk memvisualisasikan, membuat anotasi, dan membandingkan cakupan teknik adversary. Memungkinkan pelapisan aktivitas red team vs blue team dalam satu tampilan.",
+    "teams": [
+      "red",
+      "blue",
+      "purple"
+    ],
+    "capabilities": [
+      "attack-mapping"
+    ],
+    "primary_use": "Purple (Perencanaan)",
+    "repository": "https://github.com/mitre-attack/attack-navigator",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "atomic-red-team",
+    "name": "Atomic Red Team",
+    "description": "Library tes kecil dan portabel yang dipetakan langsung ke teknik MITRE ATT&CK. Memungkinkan blue team menguji deteksi mereka terhadap perilaku adversary spesifik.",
+    "teams": [
+      "red",
+      "blue",
+      "purple"
+    ],
+    "capabilities": [
+      "detection-validation"
+    ],
+    "primary_use": "Red (Eksekusi Tes)",
+    "repository": "https://github.com/redcanaryco/atomic-red-team",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "sliver",
+    "name": "Sliver",
+    "description": "Framework Command and Control (C2) open-source untuk emulasi adversary.",
+    "teams": [
+      "red"
+    ],
+    "capabilities": [
+      "command-and-control"
+    ],
+    "primary_use": "Red (C2)",
+    "repository": "https://github.com/BishopFox/sliver",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "havoc",
+    "name": "Havoc",
+    "description": "Framework C2 pasca-eksploitasi modern dengan fokus pada evasion dan teknik post-exploitation lanjutan.",
+    "teams": [
+      "red"
+    ],
+    "capabilities": [
+      "command-and-control"
+    ],
+    "primary_use": "Red (C2)",
+    "repository": "https://github.com/HavocFramework/Havoc",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "mythic",
+    "name": "Mythic",
+    "description": "Framework C2 kolaboratif open-source yang aktif dikelola.",
+    "teams": [
+      "red"
+    ],
+    "capabilities": [
+      "command-and-control"
+    ],
+    "primary_use": "Red (C2)",
+    "repository": "https://github.com/its-a-feature/Mythic",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "metasploit",
+    "name": "Metasploit",
+    "description": "Framework eksploitasi yang sangat populer, sering digunakan untuk penetration testing dan red teaming.",
+    "teams": [
+      "red"
+    ],
+    "capabilities": [
+      "penetration-testing"
+    ],
+    "primary_use": "Red (Eksploitasi)",
+    "repository": "https://github.com/rapid7/metasploit-framework",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "bloodhound",
+    "name": "BloodHound",
+    "description": "Tool untuk menganalisis jalur serangan pada Active Directory (AD).",
+    "teams": [
+      "red",
+      "purple"
+    ],
+    "capabilities": [
+      "attack-path-analysis"
+    ],
+    "primary_use": "Red (AD Attack Path)",
+    "repository": "https://github.com/SpecterOps/BloodHound",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "nmap",
+    "name": "Nmap",
+    "description": "Scanner port dan pemetaan jaringan yang fundamental.",
+    "teams": [
+      "red"
+    ],
+    "capabilities": [
+      "network-discovery"
+    ],
+    "primary_use": "Red (Recon)",
+    "repository": "https://github.com/nmap/nmap",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "amass",
+    "name": "Amass",
+    "description": "Tool untuk pemetaan attack surface dan penemuan aset secara mendalam.",
+    "teams": [
+      "red"
+    ],
+    "capabilities": [
+      "attack-surface-discovery"
+    ],
+    "primary_use": "Red (Recon)",
+    "repository": "https://github.com/owasp-amass/amass",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "wazuh",
+    "name": "Wazuh",
+    "description": "Platform keamanan open-source yang menyatukan SIEM dan XDR untuk analisis log, deteksi intrusi, dan pemantauan.",
+    "teams": [
+      "blue"
+    ],
+    "capabilities": [
+      "security-monitoring"
+    ],
+    "primary_use": "Blue (SIEM/XDR)",
+    "repository": "https://github.com/wazuh/wazuh",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "sigma",
+    "name": "Sigma",
+    "description": "Aturan deteksi vendor-neutral yang dapat dikonversi ke berbagai SIEM.",
+    "teams": [
+      "blue",
+      "purple"
+    ],
+    "capabilities": [
+      "detection-engineering"
+    ],
+    "primary_use": "Blue (Detection Rules)",
+    "repository": "https://github.com/SigmaHQ/sigma",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "velociraptor",
+    "name": "Velociraptor",
+    "description": "Tool untuk Digital Forensics and Incident Response (DFIR) dan visibilitas endpoint.",
+    "teams": [
+      "blue",
+      "purple"
+    ],
+    "capabilities": [
+      "dfir"
+    ],
+    "primary_use": "Blue (DFIR)",
+    "repository": "https://github.com/Velocidex/velociraptor",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "suricata",
+    "name": "Suricata",
+    "description": "Engine deteksi intrusi (IDS/IPS) dan pemantauan keamanan jaringan.",
+    "teams": [
+      "blue"
+    ],
+    "capabilities": [
+      "network-detection"
+    ],
+    "primary_use": "Blue (Network IDS)",
+    "repository": "https://github.com/OISF/suricata",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "zeek",
+    "name": "Zeek",
+    "description": "Framework analisis jaringan yang menghasilkan log kaya akan metadata untuk deteksi.",
+    "teams": [
+      "blue"
+    ],
+    "capabilities": [
+      "network-analysis"
+    ],
+    "primary_use": "Blue (Network Analysis)",
+    "repository": "https://github.com/zeek/zeek",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "wireshark",
+    "name": "Wireshark",
+    "description": "Penganalisis protokol jaringan dan packet capture standar industri.",
+    "teams": [
+      "blue"
+    ],
+    "capabilities": [
+      "packet-analysis"
+    ],
+    "primary_use": "Blue (Packet Analysis)",
+    "repository": "https://github.com/wireshark/wireshark",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "elk-stack",
+    "name": "ELK Stack",
+    "description": "Kombinasi Elasticsearch, Logstash, dan Kibana untuk SIEM dan manajemen log.",
+    "teams": [
+      "blue"
+    ],
+    "capabilities": [
+      "log-management"
+    ],
+    "primary_use": "Blue (SIEM/Log)",
+    "repository": null,
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "Composite stack; verify component licensing separately.",
+    "source_dataset": "data/raw/table_20261021.csv"
+  },
+  {
+    "id": "openvas",
+    "name": "OpenVAS",
+    "description": "Scanner kerentanan open-source untuk manajemen kerentanan.",
+    "teams": [
+      "blue"
+    ],
+    "capabilities": [
+      "vulnerability-management"
+    ],
+    "primary_use": "Blue (Vuln Scan)",
+    "repository": "https://github.com/greenbone/openvas-scanner",
+    "homepage": null,
+    "license": "unknown",
+    "deployment": [],
+    "integrations": [],
+    "attack_techniques": [],
+    "maintenance": "unknown",
+    "enterprise_readiness": "not-assessed",
+    "verification": "unverified",
+    "last_verified": null,
+    "notes": "",
+    "source_dataset": "data/raw/table_20261021.csv"
+  }
+]
