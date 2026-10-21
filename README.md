@@ -1,9 +1,40 @@
+<div align="center">
+
+<img src="assets/banner.svg" alt="Awesome Security Teaming Banner" width="100%" />
+
+<br/><br/>
+
+[![Live Docs](https://img.shields.io/badge/Website-Open%20Live%20Catalog-8b5cf6?style=for-the-badge&logo=googledocs&logoColor=white)](https://wahyusutejo1986.github.io/awesome-security-teaming/)
+
+[![Content License: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-blue.svg?style=flat-square)](LICENSE)
+[![Code License: MIT](https://img.shields.io/badge/Code-MIT-yellow.svg?style=flat-square)](LICENSE-CODE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776ab.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Verification: Evidence--Based](https://img.shields.io/badge/Verification-Evidence--Based-purple.svg?style=flat-square)](docs/evaluation-methodology.md)
+
+[🌐 Live Web Portal](https://wahyusutejo1986.github.io/awesome-security-teaming/) • [🔴 Red Team](docs/red-team.md) • [🔵 Blue Team](docs/blue-team.md) • [🟣 Purple Team](docs/purple-team.md) • [📋 Evaluation Methodology](docs/evaluation-methodology.md) • [🏷️ Taxonomy](docs/taxonomy.md) • [🤝 Contributing](CONTRIBUTING.md)
+
+</div>
+
+---
+
 # Awesome Security Teaming
 
 > A community-driven, evidence-based catalog of open-source tools for Red, Blue, and Purple Teaming.
 
-
 **Status:** Initial catalog; all imported entries are **unverified** until independently reviewed. Listed tools are **not endorsements** or claims of enterprise readiness. Repository URLs are initial candidates, not verified sources.
+
+---
+
+## ⚡ Quick Navigation by Team
+
+| Domain | Description | Catalog Link |
+|---|---|---|
+| **🔴 Red Team** | Offensive security, adversary simulation, penetration testing, C2, and discovery | [View Red Team Catalog](docs/red-team.md) |
+| **🔵 Blue Team** | Defensive operations, security monitoring, packet analysis, detection, and DFIR | [View Blue Team Catalog](docs/blue-team.md) |
+| **🟣 Purple Team** | Collaborative exercises, detection engineering, validation, and attack path analysis | [View Purple Team Catalog](docs/purple-team.md) |
+
+---
 
 ## Browse tools
 
@@ -35,6 +66,8 @@
 | [Zeek](https://github.com/zeek/zeek) | network-analysis | unverified | not-assessed |
 
 <!-- CATALOG:END -->
+
+---
 
 ## Start here
 
