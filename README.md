@@ -12,7 +12,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![Verification: Evidence--Based](https://img.shields.io/badge/Verification-Evidence--Based-purple.svg?style=flat-square)](docs/evaluation-methodology.md)
 
-[🌐 Live Web Portal](https://wahyusutejo1986.github.io/awesome-security-teaming/) • [🔴 Red Team](docs/red-team.md) • [🔵 Blue Team](docs/blue-team.md) • [🟣 Purple Team](docs/purple-team.md) • [📋 Evaluation Methodology](docs/evaluation-methodology.md) • [🏷️ Taxonomy](docs/taxonomy.md) • [🤝 Contributing](CONTRIBUTING.md)
+[🌐 Live Web Portal](https://wahyusutejo1986.github.io/awesome-security-teaming/) • [🧭 Decision Matrix](docs/decision-matrix.md) • [🔴 Red Team](docs/red-team.md) • [🔵 Blue Team](docs/blue-team.md) • [🟣 Purple Team](docs/purple-team.md) • [📋 Evaluation Methodology](docs/evaluation-methodology.md) • [🏷️ Taxonomy](docs/taxonomy.md) • [🤝 Contributing](CONTRIBUTING.md)
 
 </div>
 
@@ -24,12 +24,15 @@
 
 **Status:** Initial catalog; all imported entries are **unverified** until independently reviewed. Listed tools are **not endorsements** or claims of enterprise readiness. Repository URLs are initial candidates, not verified sources.
 
+> 🧭 **Looking for architecture breakdowns, use cases, or TCO?** Read the [Decision Matrix & Cost Analysis Guide](docs/decision-matrix.md) for head-to-head comparisons (e.g. Suricata vs. Zeek, Atomic Red Team vs. Caldera, Sliver vs. Havoc).
+
 ---
 
 ## ⚡ Quick Navigation by Team
 
 | Domain | Description | Catalog Link |
 |---|---|---|
+| **🧭 Strategy & TCO** | Use case decision matrix, architecture topologies, and cost analysis | [Decision Matrix](docs/decision-matrix.md) |
 | **🔴 Red Team** | Offensive security, adversary simulation, penetration testing, C2, and discovery | [View Red Team Catalog](docs/red-team.md) |
 | **🔵 Blue Team** | Defensive operations, security monitoring, packet analysis, detection, and DFIR | [View Blue Team Catalog](docs/blue-team.md) |
 | **🟣 Purple Team** | Collaborative exercises, detection engineering, validation, and attack path analysis | [View Purple Team Catalog](docs/purple-team.md) |
