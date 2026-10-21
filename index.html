@@ -50,8 +50,25 @@
         text-transform: uppercase;
         letter-spacing: 0.05em;
       }
+      .app-nav a {
+        color: #94a3b8;
+      }
+      .app-nav a:hover {
+        color: #c084fc;
+      }
     }
     
+    /* Navbar styling */
+    .app-nav {
+      margin: 15px 25px 0 0;
+      font-size: 0.9rem;
+    }
+    .app-nav li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    /* Table styling */
     .markdown-section table {
       display: table;
       width: 100%;
@@ -65,6 +82,7 @@
       border: 1px solid #312e81;
       padding: 10px 14px;
       font-weight: 600;
+      text-align: left;
     }
     .markdown-section td {
       border: 1px solid #1f2937;
@@ -94,12 +112,17 @@
       box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2) !important;
     }
 
-    /* Badges in tables */
+    /* Blockquotes */
     .markdown-section blockquote {
       border-left: 4px solid #8b5cf6;
       background: rgba(139, 92, 246, 0.06);
       padding: 10px 16px;
       border-radius: 0 8px 8px 0;
+    }
+
+    /* Code Blocks */
+    .markdown-section pre>code {
+      border-radius: 8px;
     }
   </style>
 </head>
@@ -110,6 +133,7 @@
       name: '🛡️ Security Teaming',
       repo: 'https://github.com/wahyusutejo1986/awesome-security-teaming',
       loadSidebar: true,
+      loadNavbar: true,
       autoHeader: false,
       subMaxLevel: 3,
       auto2top: true,

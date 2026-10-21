@@ -6,9 +6,9 @@
 
 | Tool | Capability | Verification | Readiness |
 |---|---|---|---|
-| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | detection-validation | unverified | not-assessed |
+| [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) | detection-validation | verified | not-assessed |
 | [BloodHound](https://github.com/SpecterOps/BloodHound) | attack-path-analysis | unverified | not-assessed |
-| [MITRE ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) | attack-mapping | unverified | not-assessed |
+| [MITRE ATT&CK Navigator](https://github.com/mitre-attack/attack-navigator) | attack-mapping | verified | not-assessed |
 | [MITRE Caldera](https://github.com/mitre/caldera) | adversary-emulation | unverified | not-assessed |
 | SentinelX | unclassified | unverified | not-assessed |
 | [Sigma](https://github.com/SigmaHQ/sigma) | detection-engineering | unverified | not-assessed |

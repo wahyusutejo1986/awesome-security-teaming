@@ -1,0 +1,7 @@
+- 🔴 [Red Team](docs/red-team.md)
+- 🔵 [Blue Team](docs/blue-team.md)
+- 🟣 [Purple Team](docs/purple-team.md)
+- 📋 [Methodology](docs/evaluation-methodology.md)
+- 🏷️ [Taxonomy](docs/taxonomy.md)
+- 🤝 [Contributing](CONTRIBUTING.md)
+- [⭐ GitHub](https://github.com/wahyusutejo1986/awesome-security-teaming)

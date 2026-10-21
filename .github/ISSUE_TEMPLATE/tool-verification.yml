@@ -1,0 +1,56 @@
+name: Verify Tool / Update Readiness
+description: Submit evidence to verify a tool or update its readiness level based on the evaluation methodology
+title: "[Verification] "
+labels: ["verification", "evidence"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please refer to our [Evaluation Methodology](https://wahyusutejo1986.github.io/awesome-security-teaming/#/docs/evaluation-methodology) before submitting evidence.
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool Name
+      description: Name of the existing tool in data/tools.json
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed_readiness
+    attributes:
+      label: Proposed Readiness Level
+      options:
+        - not-assessed
+        - experimental
+        - lab-ready
+        - enterprise-candidate
+    validations:
+      required: true
+  - type: textarea
+    id: identity_license_evidence
+    attributes:
+      label: Identity & License Evidence
+      description: Link to official maintainer verification and inspected LICENSE file
+      placeholder: Official upstream URL, inspected LICENSE (e.g. Apache 2.0 / MIT / GPLv3), and dependencies.
+    validations:
+      required: true
+  - type: textarea
+    id: operational_evidence
+    attributes:
+      label: Operational & Lab Assessment Evidence
+      description: Describe testing methodology, deployment context, versions tested, and limitations
+      placeholder: Tested in lab on Ubuntu 24.04 / Windows Server with version X.Y.Z.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Verification Gates Checklist
+      options:
+        - label: Gate 1 (Identity): Matched project name to official maintainer and upstream repo
+          required: true
+        - label: Gate 2 (License): Inspected actual LICENSE file; verified open-source compliance
+          required: true
+        - label: Gate 3 (Maintenance): Reviewed recent releases, commits, and security advisories
+          required: true
+        - label: Gate 4 (Suitability): Assessed operational suitability, configuration, and logging
+          required: true
